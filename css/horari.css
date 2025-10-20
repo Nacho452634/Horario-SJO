@@ -9,6 +9,8 @@ body{
     padding: 20px;
     width:auto ;
     height: auto;
+    margin: auto;
+    background-color: #FDFBD4;
 }
 
 h1{
