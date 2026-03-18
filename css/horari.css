@@ -17,21 +17,18 @@ h1{
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 2rem;
+    margin-left: 455px;
+}
+
+.titulo{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 520px;
 }
 
 h2{
     font-size: 1.8rem;
-}
-
-.titulo{
-    color: rgb(19, 129, 255);
-    font-size: 3.8rem;
-    text-align: center;
-}
-
-.titulo span{
-    color: rgb(0, 255, 140);
-    font-size: 2.5rem;
 }
 
 p{
@@ -84,7 +81,7 @@ p{
 }
 
 .IPO{
-    background-color: #FDFBD4;
+    background-color: #00ffbb;
     text-align: center;
 }
 
@@ -101,6 +98,17 @@ p{
 .CASA{
     background-color: #fcff53;
     text-align: center;
+}
+
+.limpio{
+    background-color: #FDFBD4;
+    text-align: center;
+}
+
+.nada{
+    background-color: #FDFBD4;
+    text-align: center;
+    border: none;
 }
 
 table{
@@ -126,4 +134,17 @@ a{
 
 a:hover{
     color: hwb(213 15% 0%);
+}
+
+.principal{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.nav{
+    margin-left: 45px;
 }
